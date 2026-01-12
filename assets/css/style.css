@@ -129,7 +129,7 @@ body {
     font-size: 16px;
 }
 
-.about-us-content-container{
+.about-us-content-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -265,7 +265,7 @@ body {
     color: #757575;
 }
 
-.room-type{
+.room-type {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.2px;
@@ -280,11 +280,11 @@ body {
 
 /* explore service section  */
 
-.explore-service{
+.explore-service {
     padding: 100px 157px;
 }
 
-.explore-service-main-heading{
+.explore-service-main-heading {
     display: flex;
     gap: 24px;
     flex-direction: column;
@@ -307,7 +307,7 @@ body {
     width: 1236px;
     height: 564px;
     flex-wrap: wrap;
-}  
+}
 
 .explore-service-indi {
     padding: 64px 32px;
@@ -320,7 +320,7 @@ body {
     gap: 32px;
 }
 
-.explore-service-heading{
+.explore-service-heading {
     margin-bottom: 16px;
     font-size: 20px;
     text-align: center;
@@ -343,7 +343,7 @@ body {
 
 /* Testimonial section begins */
 
-.explore-testimonial-heading{
+.explore-testimonial-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -461,6 +461,7 @@ body {
     color: #9E9E9E;
     text-decoration: none;
 }
+
 @media screen and (max-width: 1024px) {
     .hero-title {
         font-size: 48px;
@@ -522,6 +523,7 @@ body {
         min-width: 150px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .header-container {
         margin-bottom: 15%;
@@ -573,6 +575,10 @@ body {
     .about-container {
         flex-direction: column;
         gap: 40px;
+    }
+
+    .about-container:nth-child(2) {
+        flex-direction: column-reverse;
     }
 
     .about-image {
@@ -688,6 +694,7 @@ body {
         align-items: center;
     }
 }
+
 @media screen and (max-width: 600px) {
     .hero-container {
         padding: 5% 5%;
@@ -784,6 +791,7 @@ body {
         padding: 40px 20px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .logoimg {
         font-size: 20px;
